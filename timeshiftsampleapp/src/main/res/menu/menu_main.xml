@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="irt.de.omrisampleapp.MainActivity">
+    <item
+        android:id="@+id/action_scan"
+        android:orderInCategory="100"
+        android:title="@string/action_scan"
+        android:visible="false"
+        android:icon="@drawable/outline_radio_white_48"
+        android:titleCondensed="Scan"
+        app:showAsAction="always|withText" />
+</menu>

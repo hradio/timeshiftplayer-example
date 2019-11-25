@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/radioservice_base_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_bg"
+    android:layout_margin="4dp">
+
+    <ImageView
+        android:id="@+id/radioservice_adapter_icon"
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:layout_margin="3dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/hradio"
+        />
+
+    <TextView
+        android:id="@+id/radioservice_adapter_ensembleLabel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="@color/srvListText"
+        android:layout_toRightOf="@+id/radioservice_adapter_icon"
+        android:layout_toEndOf="@+id/radioservice_adapter_icon"
+        />
+
+    <TextView
+        android:id="@+id/radioservice_adapter_servicelabel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/srvListText"
+        android:layout_toRightOf="@+id/radioservice_adapter_icon"
+        android:layout_toEndOf="@+id/radioservice_adapter_icon"
+        android:layout_below="@+id/radioservice_adapter_ensembleLabel"
+        />
+
+    <TextView
+        android:id="@+id/radioservice_adapter_serviceId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="@color/srvListText"
+        android:layout_toRightOf="@+id/radioservice_adapter_icon"
+        android:layout_toEndOf="@+id/radioservice_adapter_icon"
+        android:layout_below="@+id/radioservice_adapter_servicelabel"
+        />
+
+    <TextView
+        android:id="@+id/radioservice_adapter_ensembleId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="@color/srvListText"
+        android:layout_toRightOf="@+id/radioservice_adapter_icon"
+        android:layout_toEndOf="@+id/radioservice_adapter_icon"
+        android:layout_below="@+id/radioservice_adapter_serviceId"
+        />
+
+    <TextView
+        android:id="@+id/radioservice_adapter_ensembleFreq"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="false"
+        android:textStyle="normal"
+        android:textSize="12sp"
+        android:textColor="@color/srvListText"
+        android:layout_toRightOf="@+id/radioservice_adapter_icon"
+        android:layout_toEndOf="@+id/radioservice_adapter_icon"
+        android:layout_below="@+id/radioservice_adapter_ensembleId"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

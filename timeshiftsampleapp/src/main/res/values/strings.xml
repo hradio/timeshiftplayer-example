@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HRadio Timeshiftsample</string>
+    <string name="action_scan">DAB Scan</string>
+</resources>

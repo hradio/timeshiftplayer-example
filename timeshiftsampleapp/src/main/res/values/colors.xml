@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2f3035</color>
+    <color name="colorPrimaryDark">#666976</color>
+    <color name="colorAccent">#c23136</color>
+    <color name="backGroundDark">#0e0c0d</color>
+    <color name="backGroundLite">#f60b1521</color>
+    <color name="backGroundBlack">#FF000000</color>
+    <color name="srvListText">#f6d7dde2</color>
+    <color name="srvListBg">#f608a5a7</color>
+    <color name="srvListBgNew">#FF000000</color>
+    <color name="srvListBgNewLight">#353333</color>
+</resources>

@@ -1,0 +1,25 @@
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+
+        //IRT HRadio public lib repository
+        maven {
+            url "https://artifactory.irt.de/artifactory/hradio"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
