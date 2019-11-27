@@ -49,8 +49,8 @@ dependencies {
     implementation 'eu.hradio.core:audiotrackservice:1.0.1'
 
     //OMRI implementation
-    //implementation 'org.omri:omriusb:1.0.14-dev' //for debug output
-    implementation 'org.omri:omriusb:1.0.14'
+    //implementation 'org.omri:omriusb:1.0.15-dev' //for debug output
+    implementation 'org.omri:omriusb:1.0.15'
 
     //Timeshiftplayer library
     //implementation 'eu.hradio.core:timeshiftplayer:1.0.7-dev' //for debug output
